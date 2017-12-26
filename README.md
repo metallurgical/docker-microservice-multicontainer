@@ -118,7 +118,7 @@ This folder only contain simple php code to pull/fetch data from microservice th
      
 This file is the main entry to begin with which contains set of instruction to instruct docker to build an image, container, etc.
      
-```
+```yaml
 version: '3'
 
 services:
