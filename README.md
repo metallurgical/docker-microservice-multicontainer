@@ -26,15 +26,15 @@ Both applications live in its own `docker-container`.
 
 Create one root project folder with name `docker-microservice-container` that holds our projects(anywhere) like above structure. These folder contains:
    
-   1. products folder
+   **1. products folder**
       
       This is where our API resource lived in. It just a simple microservice that was built using python language running on top of Flask Microservice Framework and finally exposed via http protocol.
       
-   2. website folder
+   **2. website folder**
       
       Our main application lived in here with a simple HTML markup mixed with PHP language.
       
-   3. docker-composer.yml file
+   **3. docker-composer.yml file**
       
       Contains set of instruction to instruct `docker` to create docker container,images, etc. We're using this file instead of using `docker client` command like `docker run, docker build,etc..` which is more easy to maintain. 
       
