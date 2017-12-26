@@ -142,7 +142,7 @@ services:
 
 ## Run
 
-Open terminal and navigate to root project directory and run `docker-composer -d up` . 
+Open terminal and navigate to root project directory and run `docker-compose -d up` . 
 
 `-d` will make the process running on background.
 
