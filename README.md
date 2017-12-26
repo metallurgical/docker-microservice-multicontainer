@@ -38,7 +38,7 @@ Create one root project folder with name `docker-microservice-container` that ho
       
       Contains set of instruction to instruct `docker` to create docker container,images, etc. We're using this file instead of using `docker client` command like `docker run, docker build,etc..` which is more easy to maintain. 
       
-### 1.1 Product Folder
+## 1.1 Product Folder
 
 As mentioned above, this folder contains our API resource and having 3 files to get started:
 
@@ -86,7 +86,7 @@ As mentioned above, this folder contains our API resource and having 3 files to 
       flask-restful==0.3.5
      ```
      
-### 2.1 Website Folder
+## 2.1 Website Folder
      
 This folder only contain simple php code to pull/fetch data from microservice that reside on another container.
 
@@ -114,7 +114,7 @@ This folder only contain simple php code to pull/fetch data from microservice th
 </html>
 ```
 
-### 3.1 docker-composer file
+## 3.1 docker-composer file
      
 This file is the main entry to begin with which contains set of instruction to instruct docker to build an image, container, etc.
      
@@ -140,7 +140,7 @@ services:
 ```     
 
 
-### Run
+## Run
 
 Open terminal and navigate to root project directory and run `docker-composer -d up` . 
 
@@ -148,7 +148,7 @@ Open terminal and navigate to root project directory and run `docker-composer -d
 
 If everything goes well, you should be able to run main application inside web browser using `http://localhost:5000`.
 
-### Extras
+## Extras
 
 1. List of running docker-containers
 
