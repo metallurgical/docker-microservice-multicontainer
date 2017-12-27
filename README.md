@@ -123,7 +123,7 @@ version: '3'
 
 services:
     product-service: # microservice container
-        build: ./product
+        build: ./product # folder to looks for dockerfile
         volumes: # This will make our code reflect to the changes that was made inside text editor.
             - ./product:/usr/src/app
         ports: # exposed 5001 port for host machine and 80 for container.
